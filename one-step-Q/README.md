@@ -7,11 +7,7 @@ This is a Tensorflow + Keras implementation of asyncronous one-step Q learning a
 It uses Keras to define the deep q network (see model.py), OpenAI's gym library to interact with the Atari Learning Environment (see atari_environment.py), and Tensorflow for optimization/execution (see one-step-Q.py).
 
 ## Requirements
-* tensorflow
-* gym
-* gym's atari environment
-* skimage
-* Keras
+* tensorflow, gym, gym's atari environment, skimage, Keras
 
 ## Usage
 ###Training
@@ -37,7 +33,7 @@ After completing the eval, we can upload our eval file to OpenAI's site as follo
 import gym
 gym.upload('./model/spaceInvaders/eval', api_key='YOUR_API_KEY')
 ```
-Now we can find the eval Openai.gym.
+Now we can find the eval at OpenAI.gym.
 
 
 ## Important notes
