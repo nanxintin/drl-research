@@ -1,2 +1,5 @@
 # drl-research
-some code of deep reinforcement learning
+
+Important algorithms of deep reinforcement learning.
+
+Working in progress.
