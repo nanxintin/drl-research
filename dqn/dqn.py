@@ -6,10 +6,6 @@ import random
 import sys
 import tensorflow as tf
 
-if "../" not in sys.path:
-  sys.path.append("../")
-
-from lib import plotting
 from collections import deque, namedtuple
 
 env = gym.envs.make("Breakout-v0")
